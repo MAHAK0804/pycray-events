@@ -1,7 +1,7 @@
 import { basehub as basehubClient, fragmentOn } from 'basehub';
 import { keys } from './keys';
 
-const basehub = basehubClient({
+export const basehub = basehubClient({
   token: keys().BASEHUB_TOKEN,
 });
 

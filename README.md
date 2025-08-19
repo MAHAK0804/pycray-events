@@ -1,31 +1,44 @@
-# ▲ / next-forge
+# Mini Event Manager (Next.js + Next-Forge Turbo)
 
-**Production-grade Turborepo template for Next.js apps.**
+This project is a **Mini Event Manager** built using the **Next-Forge Turbo Template**  
+(monorepo with Turborepo + pnpm).
 
-<div>
-  <img src="https://img.shields.io/npm/dy/next-forge" alt="" />
-  <img src="https://img.shields.io/npm/v/next-forge" alt="" />
-  <img src="https://img.shields.io/github/license/vercel/next-forge" alt="" />
-</div>
+It includes a `/events` page where you can add, list, and delete events (client-side only).
 
-## Overview
+---
 
-[next-forge](https://github.com/vercel/next-forge) is a [Next.js](https://nextjs.org/) project boilerplate for modern web application. It is designed to be a comprehensive starting point for new apps, providing a solid, opinionated foundation with a minimal amount of configuration.
+## 🚀 Tech Stack
 
-## Getting Started
+- [Next.js (App Router)](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [pnpm](https://pnpm.io/) (monorepo package manager)
+- (Optional) Zustand / React Hook Form — not required
 
-Clone the repo using:
+---
 
-```sh
-npx next-forge@latest init
-```
+## 🛠 Setup & Run
 
-Then read the [docs](https://www.next-forge.com/docs) for more information.
+Clone the repo and install dependencies:
 
-## Contributors
+```bash
+pnpm install
+pnpm dev
 
-<a href="https://github.com/vercel/next-forge/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=vercel/next-forge" />
-</a>
 
-Made with [contrib.rocks](https://contrib.rocks).
+## 📂 Path of the Page
+
+- Code location: `/apps/web/app/[locale]/events/page.tsx`
+- Accessible at: [http://localhost:3001/events](http://localhost:3001/events)
+
+---
+
+## 📝 Notes / Assumptions
+
+- Built with **Next.js (App Router)** using the **Next-Forge Turbo monorepo** template.
+- The `web` app is under `/apps/web` (default app from the template).
+- State management is done with `zustand` (no backend, no API routes).
+- Events are **stored in-memory only** (reset on refresh).
+- Styling is done with **TailwindCSS** for a clean, mobile-friendly UI.
+- Requires **pnpm** installed globally (`npm install -g pnpm`).
+- Bonus features like localStorage persistence or search are optional and not included in the base implementation.
