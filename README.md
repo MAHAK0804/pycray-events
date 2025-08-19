@@ -20,10 +20,10 @@ It includes a `/events` page where you can add, list, and delete events (client-
 ## 🛠 Setup & Run
 
 Clone the repo and install dependencies:
-
-```bash
 pnpm install
-pnpm dev
+
+Run:
+pnpm --filter web dev
 
 
 ## 📂 Path of the Page
