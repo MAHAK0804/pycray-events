@@ -42,3 +42,9 @@ pnpm --filter web dev
 - Styling is done with **TailwindCSS** for a clean, mobile-friendly UI.
 - Requires **pnpm** installed globally (`npm install -g pnpm`).
 - Bonus features like localStorage persistence or search are optional and not included in the base implementation.
+
+<img width="1920" height="1080" alt="Screenshot 2025-08-19 100706" src="https://github.com/user-attachments/assets/067bba6f-95e1-431e-a95d-051440659315" />
+
+<img width="1920" height="1080" alt="Screenshot 2025-08-19 100822" src="https://github.com/user-attachments/assets/78bc58ae-0d9e-4657-b156-9ac343079958" />
+
+
